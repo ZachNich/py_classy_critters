@@ -1,7 +1,7 @@
 from animals import Lizard, Donkey, Llama, Frog, Goat, Snake, Duck, Fish, Bull, Pigeon, Stork, Rabbit, Snail, Parakeet, Rhino
 from attractions import PettingZoo, SnakePit, Wetlands
 
-kenny = Lizard('Kenny', 'lizard', 'manflesh')
+kenny = Lizard('Kenny', 'lizard', 'manflesh', 69420)
 jenny = Donkey('Jenny', 'donkey', 'midnight', 'manflesh')
 penny = Llama('Penny', 'llama', 'dusk', 'manflesh')
 benny = Frog('Benny', 'frog', 'manflesh')

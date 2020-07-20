@@ -7,6 +7,12 @@ class PettingZoo:
     def addAnimals(self, *animal):
         for each in animal:
             self.animals.append(each)
+    
+    @property
+    def last_animal_added(self):
+        return self.animals[-1]
+
+    
 
 class SnakePit:
     def __init__(self, name):
@@ -17,6 +23,10 @@ class SnakePit:
     def addAnimals(self, *animal):
         for each in animal:
             self.animals.append(each)
+                
+    @property
+    def last_animal_added(self):
+        return self.animals[-1]
 
 class Wetlands:
     def __init__(self, name):
@@ -27,3 +37,7 @@ class Wetlands:
     def addAnimals(self, *animal):
         for each in animal:
             self.animals.append(each)
+                
+    @property
+    def last_animal_added(self):
+        return self.animals[-1]
