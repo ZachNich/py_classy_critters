@@ -44,6 +44,9 @@ class Frog(Animal):
         super().__init__(name, species, food, chip_num)
         self.swimming = True
 
+    def feed(self):
+      print(f"{self.name} doesn't need your help. He nips a fly from the air with his agile tongue whenever he is hungry.")
+
 class Goat(Animal):
     def __init__(self, name, species, shift, food, chip_num):
         super().__init__(name, species, food, chip_num)
@@ -81,6 +84,10 @@ class Stork(Animal):
     def __init__(self, name, species, food, chip_num):
         super().__init__(name, species, food, chip_num)
         self.flying = True
+
+    def feed(self):
+      print(f"Looks like {self.name} just finished eating one of the fishes. You decide to not feed her today.")
+
 
 class Rabbit(Animal):
     def __init__(self, name, species, shift, food, chip_num):
