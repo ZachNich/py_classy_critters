@@ -37,3 +37,4 @@ for animal in wetty_already.animals:
 yonni.feed()
 benny.feed()
 donnie.feed()
+bonnie.slither()
