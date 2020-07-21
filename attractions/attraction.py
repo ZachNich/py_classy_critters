@@ -7,8 +7,9 @@ class Attraction:
         for each in animal:
             self.animals.append(each)
 
-    def remove_animal(self, animal):
-        self.animals.remove(animal)
+    def removeAnimals(self, *animal):
+        for each in animal:
+            self.animals.remove(each)
 
     def __str__(self):
         return f'{self.name} ({len(self)} animals)'
